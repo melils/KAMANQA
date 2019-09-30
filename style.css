@@ -1,0 +1,323 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+
+}
+
+html, body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 900px;
+}
+
+
+
+/* HEADER*/
+header{
+    background-color: #f9f9f9;
+}
+.header-box{
+    align-items: center;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    width: 100%;
+}
+
+.header-barra-navegacion{
+    padding-left: 0px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.header-items{
+    font-size: 13px;
+    color: #479bad;
+    text-decoration:none ;
+} 
+
+.header-items:hover{
+    color:#50646e;
+   
+} 
+
+
+
+/*BANNER*/
+
+.banner{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-image:url("kamanqa.pe/imagenes/0.-Portadav2.jpeg");
+    background-position: bottom;
+    background-size: cover;
+    height: 700px;
+}  
+
+.banner-tittle{
+    margin-bottom: auto;
+    font-weight: 100;
+    font-size: 28px;
+    color: white;
+    font-family: helvetica;
+}
+
+.banner-parrafo{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: auto;
+    color: white;
+    font-family: helvetica;
+}
+
+
+
+/*Somos*/
+.section-somos{
+    display: flex;
+}
+
+.sub-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 450px;
+}
+
+.subsection-left{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    width: 50%;
+}
+
+.somos-content-left{
+    padding: 20px;
+    justify-content: center;
+}
+
+.somos-line{
+    margin-left: 0px;
+    border: 2px solid #479bad;
+    width: 51px;
+    height: 3px;
+}
+
+.somos-tittle{
+    font-size: 27px;
+    color: #50646e;;
+    font-family:helvetica;
+}
+
+.somos-left-paragraph1{
+    color:#1e6987;
+    font-weight: bold;
+    line-height:1.5;
+}
+
+.somos-left-paragraph2{
+    font-size: 13px;
+    color:#839ba7;
+    margin-top: auto;
+    line-height: 1.5;
+}
+
+.subsection-right{
+    background-image: url("kamanqa.pe/imagenes/Kamanqa_02.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.somos-content-right{
+   padding: 20px;
+}
+
+.somos-right-icon{
+    width: 35px;
+}
+
+.somos-text-right{
+    font-size: 12px;
+    color: #839ba7;
+    font-weight: bold;
+    line-height: 1.9;
+}
+
+
+/*SERVICIOS*/
+.service{
+    max-width: 100%;
+    background-image: url("kamanqa.pe/imagenes/backgroundreperiblegris.jpg");
+    background-size: cover;
+}
+
+.service-wrap{
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+
+.service-tittle{
+    margin-bottom: 25px;
+    color: white;
+} 
+
+.service-content{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.service-box{
+    padding: 15px 34px 15px 0;
+    font-size: 15px;
+    width: 33%;
+    color: white;
+    font-family: helvetica;
+    line-height: 1.7;
+    
+}
+
+.service-icon{
+
+}
+.service-subtittle{
+    margin: 0px;
+    font-size: 15px;
+    color: white;
+    font-family: helvetica;
+}
+.service-text{
+
+}
+
+
+/*RIAZA*/
+.riaza{
+    display: flex;   
+}
+
+.subsection-riaza-emty{
+    background-image: url("kamanqa.pe/imagenes/Kamanqa_01.jpg");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subsection-riaza{
+    width: 50%;
+}
+
+.riaza-content{
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    font-family:Helvetica;
+    color: #839ba7;
+}
+
+.riaza-tittle{
+    color: #1e6987;
+}
+
+.riaza-text{
+    margin-top: 35px;
+    font-family: helvetica;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+
+/*ESCRIBENOS*/
+.section-escribenos{
+    max-width: 100%;
+    background-color: #479bad;
+}
+
+.escribenos-box{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.escribenos-tittle{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+} 
+
+.escribenos-content{
+    padding-top: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.escribenos-contact{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+.escribenos-text{
+    text-align: center;
+    color: white;
+    font-family: helvetica;
+}
+
+.escribenos-link{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+/*FOOTER*/
+.section-footer{
+    background-color:#1e6987;
+    max-width: 100%;
+}
+
+.footer-conteiner{
+    justify-content: space-between;
+    display: flex;
+    height: 70px;
+}
+
+.footer-text{
+    font-size: 13px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-family: helvetica;
+}
+
+.footer-iconos{
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: flex-end;
+}
+
+.footer-image{
+    width:  18px;
+    margin-left: 20px;
+}
